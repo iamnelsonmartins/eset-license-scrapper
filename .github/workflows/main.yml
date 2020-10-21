@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - master # name of main branch, can be master or main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
